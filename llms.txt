@@ -1,0 +1,20 @@
+# SiteGraph
+
+> "Your network is a property graph. Stop relying on stale spreadsheets."
+
+SiteGraph is an offline-first graph tool that turns physical infrastructure into a source of truth. It was built out of the practical necessity to bridge the gap between fragile flat-file spreadsheets and heavy enterprise bloat.
+
+## Technical Architecture
+SiteGraph natively models infrastructure as a property graph, ensuring every asset is relationally aware. It enforces strict graph invariants and validated IPAM to prevent impossible states, such as duplicate IPs or cyclic rack dependencies.
+
+It is delivered as a single, self-contained HTML application weighing less than 1MB. It requires no installation, no backend deployment, and no database scaling. By leveraging modern Web APIs and IndexedDB, expensive graph traversals and schema validations execute entirely on the local device's CPU. 
+
+## Features
+- **Strict Graph Enforcement:** Moves beyond flat rows to model complex, interconnected network topologies.
+- **Client-Side Compute:** Zero backend latency. Operations run locally.
+- **Sovereign Data Storage:** Data is compiled into a single, offline-ready JSON document.
+
+## Project Details
+- Author: Robert E. Potter
+- Source Code: https://github.com/robertpotter-dev/sitegraph
+- Public Application: https://robertpotter-dev.github.io/sitegraph/

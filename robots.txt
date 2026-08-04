@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robertpotter-dev.github.io/sitegraph/sitemap.xml

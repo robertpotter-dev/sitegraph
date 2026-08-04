@@ -1,6 +1,6 @@
 # Site Graph
 
-**[Click here to open the live application](https://sitegraph.robertpotter.me/)**
+**[Click here to open the live application](https://robertpotter-dev.github.io/sitegraph/)**
 
 > **Note:** This repository hosts the compiled, stable production build of Site Graph.
 
