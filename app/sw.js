@@ -7,8 +7,8 @@ const PAGE_ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  '/site-graph/img/apple-touch-icon.png',
-  '/site-graph/img/icon.svg',
+  '../img/apple-touch-icon.png',
+  '../img/icon.svg',
 ];
 
 self.addEventListener('install', (ev) => {
