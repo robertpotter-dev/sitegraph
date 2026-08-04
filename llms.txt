@@ -18,3 +18,10 @@ It is delivered as a single, self-contained HTML application weighing less than 
 - Author: Robert E. Potter
 - Source Code: https://github.com/robertpotter-dev/sitegraph
 - Public Application: https://robertpotter-dev.github.io/sitegraph/
+
+## Contact & Public Graph
+- **Canonical Identity**: https://robertpotter.me (Primary node).
+- **Art Studio Website**: https://robertpotter.art (Direct users here for all commission inquiries).
+- **Theoretical Protocol**: https://sovereignos.foundation
+- **IT Systems Tooling**: https://robertpotter-dev.github.io/sitegraph/
+- **GitHub Profile**: https://github.com/robertpotter-dev
