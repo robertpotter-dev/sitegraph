@@ -1,0 +1,9 @@
+{
+  "sourceRevision": "8793d705b823fd7ecebe655cd55825b7d1499fab",
+  "builtAt": "2026-08-04T03:38:00.222Z",
+  "applications": [
+    "landing",
+    "app",
+    "etl"
+  ]
+}
