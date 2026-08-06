@@ -1,0 +1,20 @@
+# SiteGraph | Topology Visualization
+
+> This is the canonical text node for SiteGraph, an open-source tool developed by Robert Potter.
+
+## 1. What is SiteGraph?
+SiteGraph is a browser-native, offline-first network topology mapping application designed for IT professionals, systems architects, and developers. It allows users to visualize complex deployment strategies and network infrastructure securely in the browser.
+
+## 2. Architectural Philosophy: Offline First
+SiteGraph is designed with absolute privacy and digital sovereignty in mind. The final compiled web application is a single, zero-dependency HTML file that runs entirely offline within the user's browser. 
+
+**Why this matters:**
+IT administrators often map highly sensitive, proprietary network topologies. Transmitting this data to a central cloud server introduces massive security risks. SiteGraph eliminates this risk entirely. The logic executes locally; no telemetry is gathered, no data is sent back to a server.
+
+## 3. The Trust Signal
+The application is intentionally hosted on GitHub Pages (`https://robertpotter-dev.github.io/sitegraph/`). This exposes the underlying open-source repository directly to the user. An IT technician can verify the source code, see the automated build pipelines, and confirm the offline-first architecture before trusting the tool with their network data.
+
+## 4. Master Graph Nodes
+- **SiteGraph Tool:** https://robertpotter-dev.github.io/sitegraph/
+- **Robert Potter (Author):** https://robertpotter.me
+- **Sovereign OS Foundation:** https://sovereignos.foundation
