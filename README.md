@@ -12,15 +12,17 @@ It replaces messy spreadsheets and outdated Visio diagrams by modeling your IT i
 
 ### Key Features:
 
-- **100% Client-Side:** No server, no database, no internet connection required. The entire application runs directly in your browser.
-- **Data Sovereignty:** Your entire network topology is stored in a single JSON file that you control. Save it to an encrypted drive, sync it via your enterprise cloud, or securely email it to a colleague.
-- **Enterprise-Grade Validation:** The system strictly enforces IP assignment rules, duplicate checking, and valid physical cabling paths.
+- **Client-Side Application:** No SiteGraph backend, database server, or telemetry. Working data is held in browser IndexedDB; portable JSON exports remain under your control. The hosted app and any external page assets require network access when first loaded unless they are already cached.
+- **Data Custody:** Export your topology as a JSON file that you control. Save it to an encrypted drive, sync it through infrastructure you select, or share it through an approved channel.
+- **Schema and Graph Validation:** The system enforces IP assignment rules, duplicate checking, and valid physical cabling paths.
 - **AI-Ready Exports:** Generate instant LLM digests, Neo4j Cypher graphs, or traditional Excel `.xlsx` spreadsheets straight from your topology data.
 
 ## Versioning & Architecture
 
 - **Application Version:** v1.0.0 (Stable Production Build)
 - **Schema Version:** v4 (strict IPv4 property graph with document-local roles and typed fields)
-- **Architecture:** Zero-dependency single-file HTML application (Progressive Web App compatible).
+- **Architecture:** Self-contained compiled HTML application with no application backend services (Progressive Web App compatible).
 
-_For source code access, issue tracking, or development contributions, please refer to the private development repository._
+The public repository contains the compiled deployment. The source repository and build pipeline are private. Public visibility of compiled assets does not grant an open-source license or permission to copy, modify, or redistribute SiteGraph.
+
+Copyright © 2026 Robert E. Potter. All Rights Reserved.

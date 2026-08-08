@@ -1,3 +1,9 @@
 # Recent Updates
 
-(Check back soon for the latest architectural updates, releases, and commits.)
+## 2026-08-08 — Public Graph Clarification
+
+- Updated the shared public graph to identify the Sovereign OS Project as an independent research initiative.
+- Identified the Context Inversion Protocol and proposed Sovereign OS reference implementation as distinct works.
+- Standardized SiteGraph ownership and copyright under Robert E. Potter.
+- Clarified that SiteGraph is proprietary software with a publicly inspectable compiled deployment and a private source repository.
+- Distinguished browser IndexedDB working storage from a backend database server.

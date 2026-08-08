@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta
+      name="description"
+      content="SiteGraph is a proprietary, browser-native application for documenting and planning physical and logical IT infrastructure."
+    />
     <meta property="og:title" content="SiteGraph" />
     <meta
       property="og:description"
-      content="Offline network & asset documentation. One HTML file, one JSON file per site, no server."
+      content="Offline-first network and asset documentation. One compiled HTML application, one portable JSON file per site, no application backend."
     />
     <meta
       property="og:image"
@@ -12,6 +16,7 @@
     />
     <meta property="og:url" content="https://robertpotter-dev.github.io/sitegraph/app/" />
     <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://robertpotter-dev.github.io/sitegraph/app/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
@@ -323,7 +328,7 @@
     ${!tP&&r.length>500?OP(r.length):``}</div>`}function $M(e){let t=VN(),n=Oe(`person`).filter(e=>HN(e.id,t));jP(n.length),TP(n,wP(`people`),rP.people),e.innerHTML=`<div class="table-pad">\n    <div class="section-title">People (${n.length})<span class="line"></span></div>\n    ${DP(dP(`people`,wP(`people`)),n,rP.people,`people`,`No people documented. <b>+ Add ▾ → Person</b>.`,`people`)}</div>`}function eN(){AP(),$N!==`topology`&&UM?.sim?.stop();let e=U(`#content`);if(e.classList.toggle(`map-mode`,$N===`topology`),!P.doc){tN(e),jP();return}if(U(`#siteName`).textContent=P.doc.meta.site.name,$N===`topology`){KM(e),jP();return}let t={devices:YM,locations:XM,connections:ZM,ipam:QM,people:$M},n=lP,r=e.querySelector(`.table-pad`),i=n?e.querySelector(`[data-colns="${n}"]`):null,a=i?i.getBoundingClientRect().left:null,o=r?r.scrollTop:0;try{e.innerHTML=``,t[$N]?.(e)}catch(t){e.innerHTML=`<div class="empty" style="color:var(--c-warn);text-align:left;padding:2rem;"><b>Render Error:</b> ${t.message}<br><br><pre style="white-space:pre-wrap;font-size:11px;">${t.stack}</pre></div>`,console.error(`Render error:`,t)}if(lP){let t=U(`#colmenu-`+lP);t&&(t.classList.add(`open`),m(t)),uP(null);let r=e.querySelector(`.table-pad`);if(r&&(r.scrollTop=o,a!==null)){let t=e.querySelector(`[data-colns="${n}"]`);if(t){let e=t.getBoundingClientRect().left;r.scrollLeft=Math.max(0,e-a)}}}let s=U(`#showAllRowsBtn`);s&&(s.onclick=()=>{nP(!0),eN()})}function tN(e){U(`#siteName`).textContent=`—`,e.innerHTML=`<div class="start">
     <div class="kicker">Network source of truth</div>
     <h2>SiteGraph</h2>
-    <p>Offline network &amp; asset documentation. One HTML file, one JSON file per site, no server. Files are validated on load — invalid files are rejected with a full error report.</p>
+    <p>Offline-first network and asset documentation. One compiled HTML application, one portable JSON file per site, no application backend. Files are validated on load — invalid files are rejected with a full error report.</p>
     <button class="btn primary" id="stOpen">Open from JSON</button>
     <button class="btn" id="stNew">New site</button>
     <button class="btn quiet" id="stSample">Load sample site</button>

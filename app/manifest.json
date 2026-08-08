@@ -1,7 +1,7 @@
 {
   "name": "SiteGraph",
   "short_name": "SiteGraph",
-  "description": "Offline network & asset documentation. One HTML file, one JSON file per site, no server.",
+  "description": "Offline-first network and asset documentation. One compiled HTML application, one portable JSON file per site, no application backend.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

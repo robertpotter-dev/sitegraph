@@ -46,24 +46,32 @@
     <meta property="og:title" content="SiteGraph - Sovereign Network Topology" />
     <meta
       property="og:description"
-      content="Model physical and logical infrastructure as a strict property graph. No databases, no servers, no telemetry."
+      content="Model physical and logical infrastructure as a strict property graph. No backend, no database server, no telemetry."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://robertpotter-dev.github.io/sitegraph/" />
     <meta
       property="og:image"
       content="https://robertpotter-dev.github.io/sitegraph/img/apple-touch-icon.png"
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://robertpotter-dev.github.io/sitegraph/" />
 
     <!-- AI & Knowledge Graph Indexing (JSON-LD) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "@id": "https://robertpotter.me/#sitegraph",
+        "@id": "https://robertpotter-dev.github.io/sitegraph/#software",
         "name": "SiteGraph",
-        "applicationCategory": "Developer Tool",
-        "author": { "@id": "https://robertpotter.me/#person" }
+        "url": "https://robertpotter-dev.github.io/sitegraph/",
+        "description": "A proprietary, browser-native network documentation and planning application for modeling physical and logical infrastructure as a property graph.",
+        "applicationCategory": "Network documentation and planning tool",
+        "softwareVersion": "1.0.0",
+        "runtimePlatform": "Web browser",
+        "author": { "@id": "https://robertpotter.me/#person" },
+        "copyrightHolder": { "@id": "https://robertpotter.me/#person" },
+        "copyrightNotice": "Copyright © 2026 Robert E. Potter. All Rights Reserved."
       }
     </script>
     <!-- Icons -->
@@ -271,11 +279,11 @@
                 <!-- Back -->
                 <div class="flip-card-back mod-card">
                   <div class="mod-icon right-align" aria-hidden="true">🔐</div>
-                  <h3>Absolute Data Custody</h3>
+                  <h3>Direct Data Custody</h3>
                   <p>
-                    Maintain complete, full-stack ownership of your network data with zero telemetry
-                    or SaaS exhaust. Whether stored strictly locally or hosted on your own private
-                    infrastructure, your topology remains entirely under your control, integrating
+                    Maintain direct custody of your network data with zero SiteGraph telemetry or
+                    SaaS exhaust. Whether stored strictly locally or hosted on your own private
+                    infrastructure, your topology remains within systems you choose, integrating
                     seamlessly into your existing enterprise compliance, auditing, and backup
                     workflows.
                   </p>
@@ -310,8 +318,8 @@
               <p>
                 Your network data belongs to you. By structuring your topology as a strictly local
                 property graph, SiteGraph unlocks multiple export options that natively feed your AI
-                and automation pipelines. All of this is done without ever exposing a single byte to
-                a third-party cloud.
+                and automation pipelines. SiteGraph processes topology data locally and does not
+                transmit it to a third-party cloud; you control any files you export or share.
               </p>
               <ul class="mod-list">
                 <li>
@@ -495,7 +503,9 @@
         </div>
       </div>
       <div class="paper-bg">
-        <div class="container footer-copyright">&copy; 2026 KAG. All Rights Reserved.</div>
+        <div class="container footer-copyright">
+          &copy; 2026 Robert E. Potter. All Rights Reserved.
+        </div>
       </div>
     </footer>
   </body>
