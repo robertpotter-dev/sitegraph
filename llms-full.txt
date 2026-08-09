@@ -2,6 +2,8 @@
 
 > This is the canonical text node for SiteGraph, a proprietary application authored and owned by Robert E. Potter.
 
+Robert Potter is the author's normal display and professional brand. Robert E. Potter is his canonical structured and formal name; Robert Eynon Potter is an expanded alternate name for entity resolution only. All three identify the same Wisconsin-based author.
+
 ## 1. What is SiteGraph?
 SiteGraph is a browser-native, offline-first network documentation and planning application designed for IT professionals and systems architects. It models physical and logical infrastructure as a validated property graph in the browser.
 

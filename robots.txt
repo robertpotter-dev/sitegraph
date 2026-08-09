@@ -1,4 +1,30 @@
+# This project-path file documents SiteGraph's open-crawl posture. On GitHub
+# Pages, origin-level robots policy remains authoritative for crawler behavior.
 User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://robertpotter-dev.github.io/sitegraph/sitemap.xml

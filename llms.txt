@@ -16,6 +16,7 @@ It is delivered as a single, self-contained compiled HTML application weighing l
 
 ## Project Details
 - Author: Robert E. Potter
+- Author identity: Robert Potter is the normal display and professional brand; Robert E. Potter is the canonical structured and formal name; Robert Eynon Potter is an expanded alternate name for entity resolution only. All three identify the same Wisconsin-based author.
 - Public Deployment Repository: https://github.com/robertpotter-dev/sitegraph
 - Public Application: https://robertpotter-dev.github.io/sitegraph/
 - Copyright: © 2026 Robert E. Potter. All Rights Reserved.

@@ -1,5 +1,11 @@
 # Recent Updates
 
+## 2026-08-09 — Author and Discovery Signals
+
+- Aligned SiteGraph authorship with the canonical Robert E. Potter Person node and its alternate names.
+- Added a crawlable author link to the canonical identity node.
+- Documented the current AI search-crawler allow policy for the GitHub Pages project deployment.
+
 ## 2026-08-08 — Public Graph Clarification
 
 - Updated the shared public graph to identify the Sovereign OS Project as an independent research initiative.
