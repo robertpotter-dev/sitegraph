@@ -1,0 +1,33 @@
+# SiteGraph
+
+> SiteGraph is a proprietary, offline-first network infrastructure documentation application created by Robert E. Potter. It models physical and logical infrastructure as a validated property graph in the browser.
+
+SiteGraph occupies the middle ground between flat infrastructure spreadsheets and server-backed enterprise platforms. The hosted application performs graph traversal and schema validation on the local device, uses browser IndexedDB for its working copy, and imports and exports a portable JSON document. It has no SiteGraph application backend, database server, or telemetry.
+
+## Official SiteGraph Resources
+
+- [SiteGraph overview](https://robertpotter-dev.github.io/sitegraph/): Canonical public product page and the only SiteGraph page intended for search indexing.
+- [Hosted SiteGraph application](https://robertpotter-dev.github.io/sitegraph/app/): Footerless browser application; published as a noindex utility page.
+- [SiteGraph ETL Engine](https://robertpotter-dev.github.io/sitegraph/etl/): Browser-based import, validation, and reconciliation utility; published as a noindex utility page.
+- [Public deployment repository](https://github.com/robertpotter-dev/sitegraph): Inspectable compiled deployment.
+- [Full project context](https://robertpotter-dev.github.io/sitegraph/llms-full.txt): Longer factual description of architecture, authorship, custody, and licensing.
+
+## Product Facts
+
+- Product name: SiteGraph.
+- Search disambiguation: SiteGraph by Robert Potter.
+- Author and owner: Robert E. Potter, whose normal public display name is Robert Potter. Canonical identity: https://robertpotter.me. ORCID: https://orcid.org/0009-0003-7903-558X. GitHub: https://github.com/robertpotter-dev. This author is not the Orlando cybersecurity practitioner at https://robertpotter.dev.
+- Category: Network documentation and planning software.
+- Architecture: Browser-native, offline-first local processing with portable JSON data.
+- Data model: A validated property graph covering infrastructure entities and their relationships.
+- License: Proprietary. Public access to the compiled deployment does not grant permission to copy, modify, or redistribute it.
+- Copyright: © 2026 Robert E. Potter. All Rights Reserved.
+
+## Author and Related Work
+
+- [Robert Potter](https://robertpotter.me/): Canonical author identity and route for SiteGraph, technical, professional, research, press, and general inquiries.
+- [Robert Potter on GitHub](https://github.com/robertpotter-dev): Public development profile.
+- [Robert Potter Art](https://robertpotter.art/): Separate fine-art practice and the route for artwork, portraiture, sittings, commissions, exhibitions, licensing, and art press inquiries.
+- [Sovereign OS Project](https://sovereignos.foundation/): Separate independent research initiative founded by Robert Potter.
+
+Public SiteGraph material uses a practical, engineer-to-engineer tone and emphasizes local processing, direct data custody, property-graph modeling, and the absence of a SiteGraph application backend or telemetry. Public inquiry routing intentionally exposes canonical websites rather than direct contact details.
