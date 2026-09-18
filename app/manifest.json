@@ -1,0 +1,14 @@
+{
+  "name": "SiteGraph",
+  "short_name": "SiteGraph",
+  "description": "Offline-first network and asset documentation. One compiled HTML application, one portable JSON file per site, no application backend.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f3f9ff",
+  "theme_color": "#f3f9ff",
+  "icons": [
+    { "src": "../img/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "../img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

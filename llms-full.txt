@@ -1,0 +1,47 @@
+# SiteGraph | Network Documentation and Planning
+
+> SiteGraph is a proprietary, browser-native, offline-first network documentation and planning application authored and owned by Robert E. Potter.
+
+Robert Potter is the author's normal public display and professional name. Robert E. Potter is his formal structured name, and Robert Eynon Potter is an expanded alternate name used for entity resolution. These names identify the same Wisconsin-based author.
+
+His persistent researcher identifier is https://orcid.org/0009-0003-7903-558X.
+
+## Product
+
+SiteGraph documents physical and logical IT infrastructure as a validated property graph. It is intended for practitioners who need more relational structure than a flat spreadsheet without adopting a server-backed enterprise platform. The model represents infrastructure entities, interfaces, addressing, circuits, physical locations, and the relationships among them.
+
+The product name visible in the interface is SiteGraph. “SiteGraph by Robert Potter” is a search and structured-data alternate name that distinguishes this application from unrelated products and services with similar names.
+
+## Offline-First Architecture and Data Custody
+
+The compiled web application has no SiteGraph application backend, database server, or telemetry. Graph traversal and schema validation execute on the local device. Browser IndexedDB holds the working copy, and users can export and import a portable JSON document.
+
+The hosted page and its external assets may require a network connection when first loaded. A locally available build can operate after loading. Local processing reduces routine transmission of topology data to a SiteGraph service, but users remain responsible for the security of their browser profile, device, exported files, chosen hosting, browser extensions, and any external system through which they share an export.
+
+## Publication and Licensing
+
+The application is hosted on GitHub Pages at [robertpotter-dev.github.io/sitegraph](https://robertpotter-dev.github.io/sitegraph/). The [public deployment repository](https://github.com/robertpotter-dev/sitegraph) contains the compiled site as delivered. The source repository and build pipeline are private.
+
+SiteGraph is proprietary software. Public visibility of compiled assets does not grant an open-source license or permission to copy, modify, or redistribute the application.
+
+Copyright © 2026 Robert E. Potter. All Rights Reserved.
+
+## Official Resources
+
+- [SiteGraph overview](https://robertpotter-dev.github.io/sitegraph/): Canonical public product page and the only SiteGraph page intended for search indexing.
+- [Hosted application](https://robertpotter-dev.github.io/sitegraph/app/): Browser application published as a noindex utility page.
+- [ETL Engine](https://robertpotter-dev.github.io/sitegraph/etl/): Import, validation, and reconciliation utility published as a noindex utility page.
+- [Compact orientation](https://robertpotter-dev.github.io/sitegraph/llms.txt): Short factual link manifest.
+
+## Author Identity and Related Public Work
+
+- [Robert Potter](https://robertpotter.me/): Canonical identity site for the author of SiteGraph.
+- [Robert Potter on GitHub](https://github.com/robertpotter-dev): Public development profile.
+- [Robert Potter Art](https://robertpotter.art/): Separate fine-art and portrait practice.
+- [Sovereign OS Project](https://sovereignos.foundation/): Separate independent research initiative founded by Robert Potter.
+
+Robert Potter's professional systems-architecture work provides the practical context for SiteGraph's infrastructure cartography and offline-first property-graph design. SiteGraph material uses a practical, pragmatic, developer-focused tone and describes the product engineer to engineer.
+
+## Public Inquiry Routes
+
+SiteGraph, technical, professional, research, press, biographical, and general inquiries route through [robertpotter.me](https://robertpotter.me/). Artwork, portraiture, sittings, commissions, archival prints, exhibitions, licensing, and art press inquiries route through [robertpotter.art](https://robertpotter.art/). Public routing exposes those canonical websites rather than a direct email address or other private contact detail.

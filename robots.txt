@@ -1,0 +1,9 @@
+# GitHub Pages serves origin robots.txt from
+# https://robertpotter-dev.github.io/robots.txt. That file, not this
+# project-path copy, is what most crawlers honor for this host.
+# This file remains as a sitemap pointer and a local record of crawl intent.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://robertpotter-dev.github.io/sitegraph/sitemap.xml
